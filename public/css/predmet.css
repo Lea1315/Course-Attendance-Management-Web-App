@@ -1,0 +1,76 @@
+body {
+	overflow-x: hidden;
+}
+#meni {
+	position: sticky;
+	top: 0;
+}
+	
+#meni ul {
+	display : flex;
+	list-style-type: none;
+	margin-right : 40px;
+}
+#meni ul li {
+	padding-right: 9px;
+	white-space: nowrap;
+}
+#ri ul, #ee ul, #aie ul, #tk ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+.rs_1, .rs_2, .bsc_1, .bsc_2, .bsc_3, .msc_1, .msc_2 {
+  	display: grid;
+  	grid-template-columns: repeat(auto-fill, minmax(200px,200px));
+  	background-color: #BA55D3;
+  	padding: 3px;
+  	grid-gap: 10px;
+}
+.grid-item {	
+  	background-color: powderblue;
+  	border: 1px solid rgba(0, 0, 0, 0.8);
+  	padding: 10px;
+  	font-size: 25px;
+  	text-align: center;
+	word-wrap: break-word;
+}
+.white {
+  	background-color: white;
+  	border: 1px solid rgba(0, 0, 0, 0.8);
+  	padding: 10px;
+  	font-size: 25px;
+  	text-align: center;
+	word-wrap: break-word;
+}
+.grey {
+  	background-color: grey;
+  	border: 1px solid rgba(0, 0, 0, 0.8);
+  	padding: 10px;
+  	font-size: 25px;
+  	text-align: center;
+	word-wrap: break-word;
+}
+
+img {
+	border: 2px solid #ddd;
+}
+@media only screen and (max-width:939px) {
+
+	#meni {
+	position: relative;
+	}	
+	#meni ul {
+	display : block;
+	list-style-type: none;
+	}
+}
+@media only screen and (max-width:300px) {
+	body {
+	overflow-x: auto;
+	}
+}
+
+
+
+
+

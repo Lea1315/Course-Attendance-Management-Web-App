@@ -1,0 +1,32 @@
+[
+    {
+        "nastavnik": {
+            "username": "Lea",
+            "password_hash": "$2b$10$Af2DjO0wfzQDT/vg/ucKKeDzFmOnNPFkH.qkqOlytM1KsKtAfymqa"
+        },
+        "predmeti": [
+            "RMA",
+            "RPR",
+            "ASP"
+        ]
+    },
+    {
+        "nastavnik": {
+            "username": "Nail",
+            "password_hash": "$2b$10$H5iND.p30Xmk.4HMlfdcyOridjnjxmaNTCUGTvTApHF1CQwEeDQa."
+        },
+        "predmeti": [
+            "TP",
+            "DM"
+        ]
+    },
+    {
+        "nastavnik": {
+            "username": "USERNAME",
+            "password_hash": "$2b$10$4aqAuqgBYDDLr7yTyD.IYesErSqR2Pb.YRB1rpFOHfa.hOIOzhM1W"
+        },
+        "predmeti": [
+            "UUP"
+        ]
+    }
+]
